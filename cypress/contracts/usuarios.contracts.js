@@ -7,7 +7,7 @@ const usuariosSchema = Joi.object({
         email: Joi.string(),
         password: Joi. string(),
         administrador: Joi.string(),
-        _ia: Joi.string(),
+        _id: Joi.string(),
 
     })
 })
